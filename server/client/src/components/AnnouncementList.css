@@ -1,0 +1,102 @@
+.announcement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.announcement-card {
+    width: 96.6%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.announcement-title {
+    margin: 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.announcement-content {
+    margin: 0;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.announcement-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+
+.comment-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-section input {
+    /* flex-grow: 1; */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-section button {
+    padding: 8px 12px;
+    background-color: #bc9f0a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.comment-section button:hover {
+    background-color: #0056b3;
+}
+
+.announcement-actions a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #333;
+
+}
+
+.announcement-actions a:hover {
+    background-color: #e0e0e0;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-button {
+    padding: 4px 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(225, 153, 19);
+    background-color: transparent;
+    border: 1px solid #91a0b1;
+    border-radius: 8px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #02080d;
+    color: #fff;
+}

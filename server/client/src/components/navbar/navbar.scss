@@ -1,0 +1,112 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .logo-link {
+            display: flex;
+            gap: 15px;
+            text-decoration: none;
+
+            img {
+                height: 50px;
+            }
+
+            h1 {
+                color: black;
+            }
+        }
+
+        .search-area {
+            display: flex;
+            align-items: center;
+            border: 1px solid lightgray;
+            padding: 2px;
+            border-radius: 10px;
+            height: 30px;
+            gap: 20px;
+
+
+            .search-icon {}
+
+            input {
+                border: none;
+                width: 400px;
+
+                ::placeholder {
+                    text-align: center;
+                }
+            }
+
+
+        }
+
+        input {}
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+
+        .nav-icon-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .account-area {
+            display: flex;
+            align-items: center;
+
+            .notification {
+                gap: 8px;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+
+            .profile-dropdown {
+                background-color: red !important;
+                top: 100% !important;
+                // margin-top: 100px !important;
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 10px !important;
+                height: 250px !important;
+                margin-top: 200px !important;
+                background-color: #fff !important;
+                border: 1px solid #ccc !important;
+                border-radius: 4px !important;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+                width: 200px !important;
+                z-index: 100 !important;
+
+                .logout-button {
+                    background-color: white !important;
+                    width: 50% !important;
+                    color: black !important;
+                }
+            }
+        }
+
+    }
+}

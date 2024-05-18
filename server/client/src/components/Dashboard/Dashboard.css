@@ -1,0 +1,27 @@
+/* .layout {
+    position: static;
+    background-color: red;
+} */
+
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+.left-sidebar {
+    flex: 2;
+    background-color: #f0f0f0;
+}
+
+.main-page {
+    flex: 6;
+    background-color: #ffffff;
+}
+
+.right-sidebar {
+    flex: 2;
+    background-color: #f0f0f0;
+
+}

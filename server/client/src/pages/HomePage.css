@@ -1,0 +1,28 @@
+/* body {
+    background-color: black !important;
+    position: sticky !important;
+    margin: auto;
+    margin-right: 1000px;
+} */
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.left-sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+}
+
+.main-page {
+    flex-grow: 1;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.right-sidebar {
+    width: 25%;
+    background-color: #f0f0f0;
+}
